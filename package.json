@@ -13,8 +13,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "@storybook/addon-console": "^3.0.0",
     "react": ">=16.0.0",
-    "react-dom": ">=16.0.0"
+    "react-dom": ">=16.0.0",
+    "react-redux": "^7.2.3",
+    "storybook": "^8.2.9"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
@@ -28,8 +32,7 @@
     "prettier": "^3.1.1",
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0",
-    "rollup": "^4.9.2",
-    "storybook": "^8.2.9"
+    "rollup": "^4.9.2"
   },
   "peerDependencies": {
     "react": ">=16.0.0",

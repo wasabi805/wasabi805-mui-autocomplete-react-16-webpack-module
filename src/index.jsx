@@ -1,15 +1,17 @@
-import React, { useState } from 'react';
- 
-const CounterComponent = () => {
-  const [count, setCount] = useState(0);
+import React from 'react';
+import AutoCompleteSearchPresenter from './components/AutoSearch';
+import { Provider } from 'react-redux'
+import { store } from './store';
+
+const AutoCompleteSearchContainer = () => {
  
   return (
     <div>
-      <p>Currently, the count is {count}</p>
-      <button onClick={() => setCount(count - 1)}>Subtract</button>
-      <button onClick={() => setCount(count + 1)}>Add</button>
+      <Provider store={store}>
+        <AutoCompleteSearchPresenter/>
+      </Provider>
     </div>
   );
 };
  
-export { CounterComponent };
+export { AutoCompleteSearchContainer };

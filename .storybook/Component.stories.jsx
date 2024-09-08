@@ -1,9 +1,9 @@
 import React from 'react';
-import { CounterComponent } from '../src/index.jsx';
+import { AutoCompleteSearchContainer } from '../src/index.jsx';
  
 export default {
-  component: CounterComponent,
-  title: 'Counter'
+  component: AutoCompleteSearchContainer,
+  title: 'AutoCompleteSearchContainer'
 };
  
-export const Placeholder = () => <CounterComponent />;
+export const Placeholder = () => <AutoCompleteSearchContainer />;
