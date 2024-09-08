@@ -1,3 +1,4 @@
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { increment, decrement } from "../../store/slices/counterSlice";
 const CounterComponent = () => {
