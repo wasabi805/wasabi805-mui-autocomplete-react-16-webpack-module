@@ -7,7 +7,7 @@ const CounterComponent = () => {
 
   return (
     <div>
-      <div>YAC</div>
+      <div>YAC 1.0.5</div>
       Count Value {countState.value}
       <button onClick={() => dispatch(decrement())}>Subtract</button>
       <button onClick={() => dispatch(increment())}>Add</button>

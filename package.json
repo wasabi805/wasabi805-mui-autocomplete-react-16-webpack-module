@@ -1,6 +1,6 @@
 {
   "name": "mui-autocomplete-react-16-webpack-module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -28,7 +28,7 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "@storybook/react-vite": "^7.6.6",
+    "@storybook/react-vite": "^8.2.9",
     "prettier": "^3.1.1",
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0",
