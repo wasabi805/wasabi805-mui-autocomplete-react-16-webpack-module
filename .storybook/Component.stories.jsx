@@ -1,9 +1,9 @@
 import React from "react";
-import { AutoCompleteSearchContainer } from "../src/index.jsx";
+import { SmartSearchBarContainer } from "../src/index.jsx";
 
 export default {
-  component: AutoCompleteSearchContainer,
-  title: "AutoCompleteSearchContainer",
+  component: SmartSearchBarContainer,
+  title: "SmartSearchBarContainer",
 };
 
-export const Placeholder = () => <AutoCompleteSearchContainer />;
+export const Placeholder = () => <SmartSearchBarContainer />;

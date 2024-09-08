@@ -1,7 +1,7 @@
 import React from "react";
 import CounterComponent from "../Counter";
 
-export const AutoCompleteSearchPresenter = () => {
+export const SmartSearchBar = () => {
   return (
     <div>
       <CounterComponent />

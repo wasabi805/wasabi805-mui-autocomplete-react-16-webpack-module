@@ -1,16 +1,16 @@
 import React from "react";
-import { AutoCompleteSearchPresenter } from "./components/AutoCompletePresenter";
+import { SmartSearchBar } from "./components/SmartSearchBar";
 import { Provider } from "react-redux";
 import { store } from "./store";
 
-const AutoCompleteSearchContainer = () => {
+const SmartSearchBarContainer = () => {
   return (
     <div>
       <Provider store={store}>
-        <AutoCompleteSearchPresenter />
+        <SmartSearchBar />
       </Provider>
     </div>
   );
 };
 
-export { AutoCompleteSearchContainer };
+export { SmartSearchBarContainer};
