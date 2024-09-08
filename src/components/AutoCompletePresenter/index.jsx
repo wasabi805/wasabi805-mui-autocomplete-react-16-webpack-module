@@ -1,7 +1,7 @@
 import React from "react";
 import CounterComponent from "../Counter";
 
-const AutoCompleteSearchPresenter = () => {
+export const AutoCompleteSearchPresenter = () => {
   return (
     <div>
       <CounterComponent />
@@ -9,4 +9,4 @@ const AutoCompleteSearchPresenter = () => {
   );
 };
 
-export default AutoCompleteSearchPresenter;
+ 

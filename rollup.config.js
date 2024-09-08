@@ -16,7 +16,9 @@ export default {
       exclude: "node_modules/**",
       presets: ["@babel/preset-env", "@babel/preset-react"],
     }),
-    resolve(),
+    resolve({
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+    }),
     commonjs(),
     terser(),
   ],
