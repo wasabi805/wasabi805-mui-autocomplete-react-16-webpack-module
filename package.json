@@ -1,6 +1,6 @@
 {
   "name": "mui-autocomplete-react-16-webpack-module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.13.0",
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.3",
